@@ -4,18 +4,127 @@
 	font-optical-sizing: auto;
 }
 
+a {
+	text-decoration: none;
+	transition: all .2s ease-out;
+}
+
+a:hover {
+	opacity: .8;
+}
+
+nav {
+	font-size: 1.2rem;
+	padding: 0;
+}
+
+nav .navbar-brand {
+	background-color: coral;
+	padding: 2rem;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.4rem;
+	font-weight: 900;
+	color: white;
+}
+
+nav ul {
+	gap: 1rem;
+}
+
+main {
+	min-height: 70vh;
+}
+
+.text-success-custom {
+	color: #48b748;
+	background: antiquewhite;
+	border-radius: 100px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 3rem;
+	margin-bottom: 4rem;
+}
+
+.extra-padding-nav {
+	padding: 1rem 3rem;
+}
+
+.extra-padding-footer {
+	padding: 1rem 3rem;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	opacity: .9;
+}
+
 .extra-padding-container {
 	padding: 3rem;
 }
 
+.extra-padding-container-side {
+	padding: 0 3m;
+}
+
+input[type="text"].form-control {
+	min-height: 3rem !important;
+	border-radius: 12rem;
+	border-color: #AAA;
+	padding: .8rem 2rem !important;
+	font-size: 1.2rem;
+	background-color: #f6fbff;
+}
+
 .row-gap-custom {
-	--bs-gutter-x: 4rem;
-	--bs-gutter-y: 4rem;
+	--bs-gutter-x: 2rem;
+	--bs-gutter-y: 2rem;
 }
 
 .box {
-	border: 1px solid #EEE;
-	padding: 3rem;
+	border: 1px solid #999;
+	padding: 2rem;
+	border-radius: 1rem;
+}
+
+.box h4 {
+	margin-bottom: 1rem;
+	line-height: 1.5;
+}
+
+.box.accent {
+	border-color: #999;
+	border-style: dashed;
+	border-radius: 1rem;
+}
+
+.box .btn-dark {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 100px;
+	margin-right: .5rem;
+	font-size: 2rem;
+}
+
+footer {
+	background-color: black;
+	opacity: .8;
+}
+
+footer p {
+	margin: 0;
+	font-size: .8rem;
+	color: #AAA;
+}
+
+footer span {
+	font-weight: 900;
+	color: coral;
 }
 
 
